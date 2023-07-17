@@ -1,1 +1,2 @@
 # Railway-Self-Ticket-Counter
+This project was inspired by my recent experience of buying tickets for JR (Japanese Railway) line trains with JPY coins. The Railway Ticket Counter project aims to design and implement a ticket vending machine for railway tickets. The system provides a user-friendly interface for customers to select their destinations and purchase tickets conveniently. It incorporates various features such as multiple destinations, varying ticket prices based on distance, and coin-based payment.
