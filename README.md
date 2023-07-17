@@ -18,3 +18,12 @@ The system calculates the total ticket price and the amount of change to be retu
 
 # LED Indication
 To assist customers, the system includes LED indicators that light up to show the available destinations based on the amount of money inserted. This helps customers determine which destinations they can afford with their current payment.
+
+# Handling corner cases in the testbench
+1. Inserting an invalid coin (10 JPY): This tests how the vending machine handles an unsupported coin value.
+
+2. Selecting a non-existing destination (10): This tests how the vending machine handles selecting a destination that does not exist.
+
+3. Inserting exact change for the most expensive ticket (450 JPY): This tests if the vending machine correctly accepts the exact amount required for the ticket.
+
+4. Inserting more than enough money for the ticket (550 JPY): This tests if the vending machine returns the appropriate change when the inserted amount exceeds the ticket price.
